@@ -1,0 +1,38 @@
+/* App.css */
+.container {
+    background-color: #0f0f0f;
+    color: #0ff;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .textField {
+    padding: 2px 2px 2px 8px;
+    background-color: #0f0f0f;
+    color: #ffda23; /* Cambia esto al color que desees */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: .5px solid #c800ff85;
+    box-shadow: #00ffffa1 0px 0px 8px;
+    font-size: 13px; 
+  }
+  
+  .textField:focus {
+    background-color: #0f0f0f;
+    color: #ffda23; /* Cambia esto al color que desees */
+    box-shadow: #00fffe 0px 0px 8px;
+    outline: .5px solid #c800ff;
+    caret-color: #00fffe;
+  }
+
+  .button {
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #00fffe;
+    border: .5px solid #00fffe;
+    box-shadow: #c800ff 0px 0px 8px;
+    font-size: 13px; 
+  }
