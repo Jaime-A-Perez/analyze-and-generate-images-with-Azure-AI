@@ -1,5 +1,5 @@
 async function analyzeImage(imageUrl) {
-  const apiKey = process.env.ENVIRONMENT_VISION_TEST_KEY; 
+  const apiKey = secrets.AZURE_ENVIRONMENT_COMPUTER_VISION_KEY_5FL42GW39; 
 
   const endpoint = 'https://testcomputervision11.cognitiveservices.azure.com/computervision/imageanalysis:analyze';
   const params = {
