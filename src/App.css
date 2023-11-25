@@ -12,7 +12,7 @@
   .textField {
     padding: 2px 2px 2px 8px;
     background-color: #0f0f0f;
-    color: #ffda23; /* Cambia esto al color que desees */
+    color: #ffda23;
     margin-bottom: 20px;
     border-radius: 10px;
     outline: .5px solid #c800ff85;
@@ -22,7 +22,7 @@
   
   .textField:focus {
     background-color: #0f0f0f;
-    color: #ffda23; /* Cambia esto al color que desees */
+    color: #ffda23;
     box-shadow: #00fffe 0px 0px 8px;
     outline: .5px solid #c800ff;
     caret-color: #00fffe;
@@ -35,4 +35,17 @@
     border: .5px solid #00fffe;
     box-shadow: #c800ff 0px 0px 8px;
     font-size: 13px; 
+  }
+
+  .p {
+    color: #ffe83d;
+  }
+
+  .image {
+    background-color: #0f0f0f;    
+    height: 20vh;
+    width:  20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
